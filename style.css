@@ -33,4 +33,35 @@
         color: rgb(6, 33, 60);
          text-align: center;
     }
+    p{
+        color: rgb(18, 54, 91);
+         font-size: larger
+    }
+    img{
+        float:right;width:250px;height:180px;
+    }
+    ul{
+        font-size: large;
+    }
+    a{
+        color: aliceblue;
+    }
+    ul li a {
+        color: rgb(53, 53, 177);
+    }
+    #MU{
+      color: rgb(58, 58, 74);
     
+    }
+#SKC{
+  color: rgb(58, 58, 74);
+}
+#HC{
+  color: rgb(58, 58, 74);
+}
+#FR{
+  color: rgb(58, 58, 74);
+}
+#BB{
+  color: rgb(58, 58, 74);
+}
