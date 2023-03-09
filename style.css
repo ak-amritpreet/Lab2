@@ -1,0 +1,36 @@
+
+    body {
+      background-color: lightblue;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #5349bf;
+      text-align: left;
+      padding: 8px;
+    }
+
+    /* dsfl'kjads;lfkjas;dljf'lkdjchanges */
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    .top-menu{
+        background-color: rgb(64, 64, 189);
+            color: wheat;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 70%;
+         padding: 1px;
+         text-align: center;
+    }
+    #heading{
+        color: rgb(6, 33, 60);
+         text-align: center;
+    }
+    
