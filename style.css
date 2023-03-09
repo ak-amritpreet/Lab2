@@ -1,6 +1,11 @@
 
+    *{
+      font-family: 'Times New Roman', Times, serif;
+    }
     body {
       background-color: lightblue;
+      background-image: url(istockphoto-986656804-612x612.jpg);
+      
     }
 
     table {
@@ -8,18 +13,26 @@
       border-collapse: collapse;
       width: 100%;
     }
-
-    td,
-    th {
+    th{
       border: 1px solid #5349bf;
       text-align: left;
       padding: 8px;
+      background-color: rgb(20, 115, 144);
     }
 
-    /* dsfl'kjads;lfkjas;dljf'lkdjchanges */
+    td {
+      border: 1px solid #5349bf;
+      text-align: left;
+      padding: 8px;
+      background-color: rgb(106, 148, 225);
+    }
+    h1,h2{
+      text-decoration: underline;
+    }
+
 
     tr:nth-child(even) {
-      background-color: #dddddd;
+      background-color: #ac3f3f;
     }
     .top-menu{
         background-color: rgb(64, 64, 189);
