@@ -1,80 +1,225 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
 
-    *{
-      font-family: 'Times New Roman', Times, serif;
-    }
-    body {
-      background-color: lightblue;
-      background-image: url(istockphoto-986656804-612x612.jpg);
-      
-    }
+body {
+  background-image: url(istockphoto-1255604806-170667a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th{
-      border: 1px solid #5349bf;
-      text-align: left;
-      padding: 8px;
-      background-color: rgb(20, 115, 144);
-    }
+}
 
-    td {
-      border: 1px solid #5349bf;
-      text-align: left;
-      padding: 8px;
-      background-color: rgb(106, 148, 225);
-    }
-    h1,h2{
-      text-decoration: underline;
-    }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
+img {
+  display: block;
+  position:absolute;
+  bottom: 300px;
+  right: 150px;
+  height: 250px;
+}
 
-    tr:nth-child(even) {
-      background-color: #ac3f3f;
-    }
-    .top-menu{
-        background-color: rgb(64, 64, 189);
-            color: wheat;
-         font-family: 'Times New Roman', Times, serif;
-         font-size: 70%;
-         padding: 1px;
-         text-align: center;
-    }
-    #heading{
-        color: rgb(6, 33, 60);
-         text-align: center;
-    }
-    p{
-        color: rgb(18, 54, 91);
-         font-size: larger
-    }
-    img{
-        float:right;width:250px;height:180px;
-    }
-    ul{
-        font-size: large;
-    }
-    a{
-        color: aliceblue;
-    }
-    ul li a {
-        color: rgb(53, 53, 177);
-    }
-    #MU{
-      color: rgb(58, 58, 74);
-    
-    }
-#SKC{
+#mySidenav a {
+  right: -60px;
+  color: rgb(43, 9, 9);
+  width: 140px;
+  padding: 15px;
+  position: absolute;
+  transition: 0.3s;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px 0 0 5px;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: green;
+}
+
+#blog {
+  top: 90px;
+  background-color: blue;
+}
+
+#projects {
+  top: 160px;
+  background-color: red;
+}
+
+#contact {
+  top: 230px;
+  background-color: gray;
+}
+
+.about {
+  color: orange;
+}
+
+.blog {
+  color: green;
+}
+
+.projects {
+  color: blue;
+}
+
+.contact {
+  color: yellow;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: none;
+  width: 20%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style of counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th {
+  border: 1px solid #6d64cd;
+  text-align: left;
+  padding: 8px;
+  background-color: rgb(53, 138, 175);
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+
+}
+
+.flex-container>div {
+  background-color: rgb(69, 135, 201);
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: inherit;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgb(157, 204, 252);
+  border: 1px solid rgb(255, 255, 255);
+  color: #072850;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #5349bf;
+  text-align: left;
+  padding: 8px;
+  background-color: rgb(102, 169, 246);
+}
+
+tr:nth-child(even) {
+  background-color: #ac3f3f;
+}
+
+.top-menu {
+  background-color: rgb(38, 98, 217);
+  width: 1375px;
+  height: 50px;
+  color: wheat;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70%;
+  padding: 1px;
+  text-align: center;
+}
+
+#heading {
+  color: rgb(6, 33, 60);
+  text-align: center;
+}
+
+p {
+  color: rgb(18, 54, 91);
+  font-size: larger
+}
+
+img {
+  float: right;
+  width: 350px;
+  height: px;
+}
+
+a {
+  color: rgb(1, 58, 149);
+}
+
+#MU {
+  color: rgb(58, 58, 74);
+
+}
+
+#SKC {
   color: rgb(58, 58, 74);
 }
-#HC{
+
+#HC {
   color: rgb(58, 58, 74);
 }
-#FR{
+
+#FR {
   color: rgb(58, 58, 74);
 }
-#BB{
+
+#BB {
   color: rgb(58, 58, 74);
 }
