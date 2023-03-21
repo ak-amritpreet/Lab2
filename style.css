@@ -17,7 +17,7 @@ body {
 
 img {
   display: block;
-  position:absolute;
+  position: absolute;
   bottom: 250px;
   right: 380px;
   height: 230px;
@@ -40,7 +40,7 @@ img {
 }
 
 footer {
-  text-align:left;
+  text-align: left;
   padding: 4px;
   background-color: grey;
   color: white;
@@ -218,17 +218,17 @@ a {
 }
 
 #SKC {
-  color: rgb(0, 0, 0) ;
+  color: rgb(0, 0, 0);
 }
 
 #HC {
-  color:  rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 #FR {
-  color: rgb(0, 0, 0) ;
+  color: rgb(0, 0, 0);
 }
 
 #BB {
-  color:  rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
