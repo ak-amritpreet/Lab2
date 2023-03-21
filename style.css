@@ -18,9 +18,9 @@ body {
 img {
   display: block;
   position:absolute;
-  bottom: 300px;
-  right: 150px;
-  height: 250px;
+  bottom: 250px;
+  right: 380px;
+  height: 280px;
 }
 
 #mySidenav a {
@@ -37,6 +37,13 @@ img {
 
 #mySidenav a:hover {
   right: 0;
+}
+
+footer {
+  text-align:left;
+  padding: 4px;
+  background-color: grey;
+  color: white;
 }
 
 #about {
@@ -120,6 +127,8 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th {
@@ -184,7 +193,7 @@ tr:nth-child(even) {
 }
 
 #heading {
-  color: rgb(6, 33, 60);
+  color: rgb(60, 6, 6);
   text-align: center;
 }
 
@@ -204,22 +213,22 @@ a {
 }
 
 #MU {
-  color: rgb(58, 58, 74);
+  color: rgb(0, 0, 0);
 
 }
 
 #SKC {
-  color: rgb(58, 58, 74);
+  color: rgb(0, 0, 0) ;
 }
 
 #HC {
-  color: rgb(58, 58, 74);
+  color:  rgb(0, 0, 0);
 }
 
 #FR {
-  color: rgb(58, 58, 74);
+  color: rgb(0, 0, 0) ;
 }
 
 #BB {
-  color: rgb(58, 58, 74);
+  color:  rgb(0, 0, 0);
 }
